@@ -1,0 +1,28 @@
+{
+  "name": "essai_parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/js/main.js",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "buildsubfolder": "parcel build src/index.html --public-url ./",
+    "build": "parcel build src/index.html"
+  },
+  "author": "Pierre",
+  "licence": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bulma": "^0.9.0",
+    "scss": "^0.2.4"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "cssnano": "^4.1.10",
+    "parcel-bundler": "^1.6.1",
+    "parcel-plugin-clean-dist": "0.0.6",
+    "posthtml-include": "^1.4.3",
+    "posthtml-loader": "^1.0.2",
+    "sass": "^1.26.8"
+  },
+  "keywords": []
+}

@@ -1,0 +1,13 @@
+@import 'variables';
+@import 'search_form';
+
+h1.title {
+    color: $color;
+}
+
+.img {
+    background-image: url(../img/sambre.jpg);
+    width: 100px;
+    height:100px;
+    background-size: cover;
+}
